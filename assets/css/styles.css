@@ -1,0 +1,119 @@
+.navbar-nav {
+  text-decoration:  underline;
+  font-family: Alatsi, sans-serif;
+  font-size: 20px;
+  margin-left: 140px;
+  padding-left: 103px;
+}
+
+input {
+  background: rgba(255,255,255,0.2);
+  color: rgb(255,255,255);
+  font-size: 18px;
+  font-family: Alatsi, sans-serif;
+}
+
+.fa.fa-search {
+  padding-right: 2px;
+}
+
+svg {
+  font-size: 43px;
+  color: rgb(155,157,158);
+}
+
+#navcol-1 {
+  align-items: center;
+  /*margin-left: 77px;*/
+}
+
+.MainContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Left {
+  /*background: #eecece;*/
+  /*width: 600px;*/
+  /*height: 400px;*/
+  display: flex;
+  /*align-items: center;*/
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  position: sticky;
+}
+
+.Right {
+  width: 400px;
+  height: 350px;
+  /*background: white;*/
+}
+
+.Section1 {
+  padding-top: 150px;
+  height: 1000px;
+  background: url("../../assets/img/star-sky.jpg") center / cover no-repeat;
+  opacity: 0.82;
+}
+
+@media (max-width: 470px) {
+  p {
+    margin-top: -29px;
+    margin-left: -79px;
+    text-align: center;
+  }
+}
+
+.btn {
+  background: #f4476b;
+  color: var(--bs-white);
+  margin-left: 9px;
+  margin-top: -10px;
+}
+
+.buton {
+  width: 100px;
+}
+
+@media (max-width: 470px) {
+  .navbar-nav {
+    padding-left: 50px;
+    /*margin-top: -15px;*/
+  }
+}
+
+@media (max-width: 470px) {
+  .Right {
+    position: sticky;
+  }
+}
+
+@media (max-width: 470px) {
+  .login-clean {
+    padding-left: 0px;
+    position: relative;
+    top: 300px;
+    align-items: center;
+    height: 548px;
+  }
+}
+
+@media (max-width: 470px) {
+  .Left {
+    width: 487px;
+    position: sticky;
+    margin-right: -190px;
+    margin-left: 149px;
+    text-align: left;
+  }
+}
+
+@media (max-width: 470px) {
+  #navcol-1 {
+    height: 160px;
+    margin-left: 42px;
+  }
+}
+
