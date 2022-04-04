@@ -1,9 +1,10 @@
 .navbar-nav {
   text-decoration:  underline;
-  font-family: Alatsi, sans-serif;
-  font-size: 20px;
+  font-family: Acme, sans-serif;
+  font-size: 23px;
   margin-left: 140px;
   padding-left: 103px;
+  padding-top: 10px;
 }
 
 input {

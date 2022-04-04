@@ -1,0 +1,11 @@
+	//Backend
+// localhost = local server your xampp
+// root = username
+// "" = password for database
+// login = database name
+// form = database table 
+	//FrontEnd
+//Font = Acme, sans-serif
+//Theme Color = rgb(33,37,41);
+//Font Color = rgb(255,255,255);
+//
