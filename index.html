@@ -18,12 +18,12 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body style="background: rgb(33,37,41);color: rgb(255,255,255);/*padding-left: 33px;*/">
+<body>
     <nav class="navbar navbar-dark navbar-expand-md fixed-top bg-dark flex-grow-1 justify-content-between">
         <div class="container">
             <a class="navbar-brand" target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none">
-                    <path d="M12 6.25278V19.2528M12 6.25278C10.8321 5.47686 9.24649 5 7.5 5C5.75351 5 4.16789 5.47686 3 6.25278V19.2528C4.16789 18.4769 5.75351 18 7.5 18C9.24649 18 10.8321 18.4769 12 19.2528M12 6.25278C13.1679 5.47686 14.7535 5 16.5 5C18.2465 5 19.8321 5.47686 21 6.25278V19.2528C19.8321 18.4769 18.2465 18 16.5 18C14.7535 18 13.1679 18.4769 12 19.2528" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M12 6.25278V19.2528M12 6.25278C10.8321 5.47686 9.24649 5 7.5 5C5.75351 5 4.16789 5.47686 3 6.25278V19.2528C4.16789 18.4769 5.75351 18 7.5 18C9.24649 18 10.8321 18.4769 12 19.2528M12 6.25278C13.1679 5.47686 14.7535 5 16.5 5C18.2465 5 19.8321 5.47686 21 6.25278V19.2528C19.8321 18.4769 18.2465 18 16.5 18C14.7535 18 13.1679 18.4769 12 19.2528" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>   
                 </svg>
             </a>
 
@@ -46,18 +46,29 @@
     </nav>
     <section class="Section1">
         <div class="MainContainer">
-            <div class="Left" style="/*height: 414px;*/min-width: 20px;">
-                <h1 style="color: rgb(255,255,255);font-family: Acme, sans-serif;/*text-align: justify;*/">Welcome to ProGuides</h1>
-                <p style="color: rgb(255,254,254);width: 278px;"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br></p><a class="btn btn-primary buton" role="button" style="color: var(--bs-white);">Sign up</a>
+            <div class="Left">
+                <h1>Welcome to ProGuides</h1>
+                <p><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br></p>
+                <a class="btn btn-primary buton" role="button">Sign up</a>
+
             </div>
             <div class="Right">
-                <section class="login-clean" style="background: rgba(0,0,0,0);">
-                    <form action="newpage.php" method="post" style="background: #212529;margin-right: 167px;">
+                <section class="login-clean">
+                    <form action="newpage.php" method="post">
                         <h2 class="visually-hidden">Login Form</h2>
-                        <div class="illustration"><i class="icon ion-ios-bookmarks-outline"></i></div>
-                        <div class="mb-3"><input class="form-control" type="email" name="email" placeholder="Email" required=""></div>
-                        <div class="mb-3"><input class="form-control" type="password" name="password" placeholder="Password" required="" minlength="6" maxlength="20"></div>
-                        <div class="mb-3"><button class="btn btn-primary d-block w-100" type="submit" style="background: rgb(244, 71, 107);margin-left: 0px;">Log In</button></div><a class="forgot" href="#">Forgot your email or password?</a>
+                        <div class="illustration">
+                            <i class="icon ion-ios-bookmarks-outline"></i></div>
+
+                        <div class="mb-3">
+                            <input class="form-control" type="email" name="email" placeholder="Email" required=""></div>
+
+                        <div class="mb-3">
+                            <input class="form-control" type="password" name="password" placeholder="Password" required="" minlength="6" maxlength="20"></div>
+
+                        <div class="mb-3">
+                            <button class="btn btn-primary d-block w-100" type="submit">Log In</button></div>
+
+                        <a class="forgot" href="#">Instructor Log In Tab</a>
                     </form>
                 </section>
             </div>
