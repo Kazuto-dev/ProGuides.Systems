@@ -1,17 +1,26 @@
+
+@media (max-width: 767px){
 .navbar-nav {
   text-decoration:  underline;
-  font-family: Acme, sans-serif;
   font-size: 23px;
-  margin-left: 140px;
+  margin-left: 30px;
   padding-left: 103px;
   padding-top: 10px;
+  }
+}
+.navbar-nav{
+  font-family: Acme, sans-serif;
+  font-size: 23px;
+  text-decoration:  underline;
+  padding-left: 103px;
 }
 
 input {
   background: rgba(255,255,255,0.2);
   color: rgb(255,255,255);
   font-size: 18px;
-  font-family: Alatsi, sans-serif;
+  font-family: Acme, sans-serif;
+
 }
 
 .fa.fa-search {
@@ -63,8 +72,8 @@ svg {
 .Section1 {
   padding-top: 150px;
   height: 1000px;
-  background: url("../../assets/img/star-sky.jpg") center / cover no-repeat;
-  opacity: 0.82;
+  opacity: 0.87;
+  background: url("../../assets/img/sQi8dZ6-minimalist-wallpapers.jpg") center / cover no-repeat;
 }
 
 @media (max-width: 470px) {
@@ -92,6 +101,7 @@ svg {
     /*margin-top: -15px;*/
     padding-left: 1px;
     margin-top: -15px;
+    margin-left: 130px;
   }
 }
 
