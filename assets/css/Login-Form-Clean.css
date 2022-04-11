@@ -33,6 +33,7 @@
   color: inherit;
   text-indent: 8px;
   height: 42px;
+  font-family: 'Acme', sans-serif;
 }
 
 .login-clean form .btn-primary {
