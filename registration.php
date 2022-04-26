@@ -1,8 +1,7 @@
 <?php
 session_start();
 
-header ('location:login.php');
-
+header ('location:index.html');
 
 $con = mysqli_connect('localhost', 'root', '');
 
@@ -24,5 +23,5 @@ if($num==1){
 else{
         $reg = "insert into user (name , email , password) values ('$name' , '$email', '$pass')";
         mysqli_query($con, $reg);
-        echo "Sucessful!";
 }
+?>
