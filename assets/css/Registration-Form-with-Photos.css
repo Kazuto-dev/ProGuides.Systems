@@ -8,7 +8,7 @@
 .register-photo .image-holder {
   display: table-cell;
   width: auto;
-  background: url("../../assets/img/Welcome%20to%20ProGuides%20(500%20×%20452%20px).png") center / cover no-repeat;
+  background: url("../../assets/img/Welcome%20to%20ProGuides.png") center / cover no-repeat;
 }
 
 .register-photo .form-container {

@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins; 
+}
 
 @media (max-width: 767px){
 .navbar-nav {
@@ -8,7 +14,6 @@
   }
 }
 .navbar-nav{
-  font-family: Acme, sans-serif;
   font-size: 23px;
   padding-left: 103px;
   padding-right: 200px;
@@ -18,7 +23,6 @@ input {
   background: rgba(255,255,255,0.2);
   color: rgb(255,255,255);
   font-size: 18px;
-  font-family: Alatsi, sans-serif;
 
 }
 
@@ -56,8 +60,22 @@ svg {
   position: sticky;
   min-width: 20px;
 }
+.Left h1{
+  position: relative;
+  top: 7%;
+  font-weight: 1000;
+
+}
+
+.Left h4{
+  position: relative;
+  text-align: initial;
+  width: 400px;
+}
 .Left a{
   color: var(--bs-white);
+  position: relative;
+  top: 10%;
 }
 .Right {
   width: 400px;
@@ -136,7 +154,6 @@ svg {
 }
 .MainContainer h1{
   color: rgb(255,255,255);
-  font-family: Acme, sans-serif;
 } 
 
 .MainContainer p{
@@ -250,4 +267,97 @@ p {
   text-align: center;
 
   } 
+}
+
+/*content*/
+.content{
+  padding: 100px;
+}
+
+
+#comment-box, #post {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+#post:hover{
+    background-color: deeppink;
+}
+
+.book:hover{
+    transform: scale(1.3);
+    transition: 1s;
+}
+
+.MainContainer{
+  text-align: center;
+  position: relative;
+}
+.MainContainer p{
+  position: relative;
+  left: 36%;
+}
+
+.MainContainer1 {
+  text-align: center;
+  position: relative;
+}
+
+.MainContainer1 p{
+  position: relative;
+}
+
+.container3{
+  height: 600px;
+}
+
+.html {
+  position: absolute;
+  cursor: pointer;
+}
+.html img{
+  margin-left: 1300px;
+  height: 350px;
+  width: 350px;
+  padding-top: 10px;
+}
+
+.css {
+  position: absolute;
+  cursor: pointer;
+}
+.css img{
+  height: 350px;
+  width: 350px;
+  margin-left: 950px;
+}
+.js{
+  position: absolute;
+  cursor: pointer;
+}
+.js img{
+  height: 350px;
+  width: 350px;
+  margin-left: 600px;
+}
+.java{
+  position: absolute;
+  cursor: pointer;
+}
+.java img{
+  height: 350px;
+  width: 350px;
+}
+.php{
+  position: absolute;
+  cursor: pointer;
+}
+.php img{
+  height: 350px;
+  width: 350px;
+  margin-left: 280px;
+}
+
+.container4{
+  height: 400px;
 }
